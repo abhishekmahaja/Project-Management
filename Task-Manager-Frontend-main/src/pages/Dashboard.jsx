@@ -8,12 +8,12 @@ import {
   Calendar,
   Users,
 } from "lucide-react";
-import ChartComponent from "../Component/Chartcomponent";
-import BarChartComponent from "../Component/BarChartComponent";
-import backgroundImg from "../assets/images/background.jpg";
 import { NavLink } from "react-router-dom";
-import Header from "../Component/Header";
-import Sidebar from "../Component/Sidebar";
+import backgroundImg from "../assets/images/background.jpg";
+import ChartComponent from "../components/ChartComponent";
+import BarChartComponent from "../components/BarChartComponent";
+import Header from "../components/Header";
+import Sidebar from "../components/Sidebar";
 
 const Dashboard = () => {
   const [upcomingDeadlines, setUpcomingDeadlines] = useState(0);
