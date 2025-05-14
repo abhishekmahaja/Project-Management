@@ -30,7 +30,7 @@ import { useParams } from "react-router-dom";
 import { getProjectById } from "../api/service";
 import UserActivityTimeline from "../pages/ProjectActivity";
 import TaskTable from "../pages/TaskTable";
-import AddProjects from "./AddProjectpopup";
+import AddProjects from "./addProjectpopup";
 import ProjectTaskCounter from "../pages/ProjecttaskCounter";
 
 export default function ProjectCard() {
