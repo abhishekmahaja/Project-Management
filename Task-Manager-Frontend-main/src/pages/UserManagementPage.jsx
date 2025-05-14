@@ -23,7 +23,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "../component/ui/table";
+} from "../Component/ui//table.jsx";
 
 const UserManagementPage = () => {
   const [showPopup, setShowPopup] = useState(false);
