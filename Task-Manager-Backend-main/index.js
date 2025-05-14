@@ -20,7 +20,10 @@ app.use(cookieParser());
 // CORS config for frontend at localhost:5173
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "https://project-management-five-gamma.vercel.app/",
+    ],
     credentials: true,
   })
 );
