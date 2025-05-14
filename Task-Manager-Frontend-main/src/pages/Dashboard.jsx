@@ -10,10 +10,10 @@ import {
 } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import backgroundImg from "../assets/images/background.jpg";
-import ChartComponent from "../components/ChartComponent";
-import BarChartComponent from "../components/BarChartComponent";
-import Header from "../components/Header";
-import Sidebar from "../components/Sidebar";
+import ChartComponent from "../Component/Chartcomponent";
+import BarChartComponent from "../Component/BarChartComponent";
+import Header from "../Component/Header";
+import Sidebar from "../Component/Sidebar";
 
 const Dashboard = () => {
   const [upcomingDeadlines, setUpcomingDeadlines] = useState(0);
