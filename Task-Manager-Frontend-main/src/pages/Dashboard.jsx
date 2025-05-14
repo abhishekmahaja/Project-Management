@@ -8,7 +8,7 @@ import {
   Calendar,
   Users,
 } from "lucide-react";
-import ChartComponent from "../Component/ChartComponent";
+import ChartComponent from "../Component/Chartcomponent";
 import BarChartComponent from "../Component/BarChartComponent";
 import backgroundImg from "../assets/images/background.jpg";
 import { NavLink } from "react-router-dom";
