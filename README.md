@@ -44,3 +44,27 @@ A full-featured Project Management web application built using **React (Vite)**,
 ```bash
 git clone https://github.com/your-username/project-management-system.git
 cd project-management-system
+
+
+
+📁 Backend Setup
+
+cd backend
+npm install
+
+➕ Create a .env file:
+
+PORT=5000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+
+Run the backend:
+
+npm run dev
+
+💻 Frontend Setup
+
+cd frontend
+npm install
+npm run dev
+
