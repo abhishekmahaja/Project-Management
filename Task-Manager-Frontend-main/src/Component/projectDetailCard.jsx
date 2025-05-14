@@ -6,32 +6,22 @@ import {
   Building,
   Phone,
   Mail,
-  Tag,
   Star,
   Flag,
   BarChart4,
   CircleCheck,
   CircleAlert,
-  MapPin,
   FileText,
   Users,
   MessageSquare,
-  Paperclip,
-  ArrowRight,
   ChevronDown,
   ChevronUp,
-  Download,
-  Share2,
   Edit,
-  Sparkles,
-  Check,
 } from "lucide-react";
 import { useParams } from "react-router-dom";
 import { getProjectById } from "../api/service";
-import UserActivityTimeline from "../pages/ProjectActivity";
 import TaskTable from "../pages/TaskTable";
 import AddProjects from "./addProjectpopup";
-import ProjectTaskCounter from "../pages/ProjecttaskCounter";
 
 export default function ProjectCard() {
   const { projectId } = useParams();
